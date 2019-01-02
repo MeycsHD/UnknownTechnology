@@ -65,7 +65,7 @@ public class TileEntityPlatinenDrucker extends TileEntity implements IInventory,
 	@Override
 	public ITextComponent getDisplayName()
 	{
-		return this.hasCustomName() ? new TextComponentString(this.customName) : new TextComponentTranslation("container.sintering_furnace");
+		return this.hasCustomName() ? new TextComponentString(this.customName) : new TextComponentTranslation("container.platinendrucker");
 	}
 	
 	@Override
